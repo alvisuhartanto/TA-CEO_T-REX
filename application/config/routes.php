@@ -49,6 +49,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'dashboard';
+$route['default_controller'] = 'home';
 $route['404_override'] = '';
-$route['translate_uri_dashes'] = TRUE;
+$route['translate_uri_dashes'] = FALSE;
+
+// Mempercantik URL category index
+// Maksudnya jika menggunakan 'category/index/$num'
+// maka pada url akan digantikan ke 'category/$num' (url friendly 👌)
+$route['category/(:num)']   = 'category/index/$1';
+
+$route['product/(:num)']    = 'product/index/$1';
+
+$route['user/(:num)']       = 'user/index/$1';
+
+$route['home/(:num)']       = 'home/index/$1';
+
+$route['order/(:num)']      = 'order/index/$1';
