@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `cart` (
   `qty` int(11) NOT NULL,
   `subtotal` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Dumping data for table fjs_bucket-shop.cart: ~0 rows (approximately)
 DELETE FROM `cart`;
@@ -38,9 +38,9 @@ CREATE TABLE IF NOT EXISTS `category` (
   `slug` varchar(255) NOT NULL,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
--- Dumping data for table fjs_bucket-shop.category: ~4 rows (approximately)
+-- Dumping data for table fjs_bucket-shop.category: ~5 rows (approximately)
 DELETE FROM `category`;
 /*!40000 ALTER TABLE `category` DISABLE KEYS */;
 INSERT INTO `category` (`id`, `slug`, `title`) VALUES
@@ -65,11 +65,9 @@ CREATE TABLE IF NOT EXISTS `orders` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Dumping data for table fjs_bucket-shop.orders: ~2 rows (approximately)
+-- Dumping data for table fjs_bucket-shop.orders: ~0 rows (approximately)
 DELETE FROM `orders`;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
-INSERT INTO `orders` (`id`, `id_user`, `date`, `invoice`, `total`, `name`, `address`, `phone`, `status`) VALUES
-	(1, 5, '2022-12-06', '520221206063609', 80000, 'paijo', 'gunung terang ', '085643213452', 'delivered');
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 
 -- Dumping structure for table fjs_bucket-shop.orders_confirm
@@ -82,13 +80,11 @@ CREATE TABLE IF NOT EXISTS `orders_confirm` (
   `note` varchar(255) NOT NULL,
   `image` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table fjs_bucket-shop.orders_confirm: ~1 rows (approximately)
+-- Dumping data for table fjs_bucket-shop.orders_confirm: ~0 rows (approximately)
 DELETE FROM `orders_confirm`;
 /*!40000 ALTER TABLE `orders_confirm` DISABLE KEYS */;
-INSERT INTO `orders_confirm` (`id`, `id_orders`, `account_name`, `account_number`, `nominal`, `note`, `image`) VALUES
-	(1, 1, 'paijo', '0987654321', 65000, '-mas ditunggu barangnya ', '520221206063609-20221206063742.jpeg');
 /*!40000 ALTER TABLE `orders_confirm` ENABLE KEYS */;
 
 -- Dumping structure for table fjs_bucket-shop.order_detail
@@ -99,15 +95,11 @@ CREATE TABLE IF NOT EXISTS `order_detail` (
   `qty` int(4) NOT NULL,
   `subtotal` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Dumping data for table fjs_bucket-shop.order_detail: ~3 rows (approximately)
+-- Dumping data for table fjs_bucket-shop.order_detail: ~0 rows (approximately)
 DELETE FROM `order_detail`;
 /*!40000 ALTER TABLE `order_detail` DISABLE KEYS */;
-INSERT INTO `order_detail` (`id`, `id_orders`, `id_product`, `qty`, `subtotal`) VALUES
-	(2, 1, 3, 2, 6000000),
-	(3, 2, 2, 1, 500000),
-	(4, 1, 5, 1, 80000);
 /*!40000 ALTER TABLE `order_detail` ENABLE KEYS */;
 
 -- Dumping structure for table fjs_bucket-shop.product
@@ -121,14 +113,15 @@ CREATE TABLE IF NOT EXISTS `product` (
   `is_available` tinyint(1) NOT NULL DEFAULT '1',
   `image` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
--- Dumping data for table fjs_bucket-shop.product: ~1 rows (approximately)
+-- Dumping data for table fjs_bucket-shop.product: ~3 rows (approximately)
 DELETE FROM `product`;
 /*!40000 ALTER TABLE `product` DISABLE KEYS */;
 INSERT INTO `product` (`id`, `id_category`, `slug`, `title`, `description`, `price`, `is_available`, `image`) VALUES
 	(5, 7, 'bucket-bunga-couver-ping-ukuran-medium', 'Bucket Bunga Couver Ping Ukuran Medium', 'buket bunga cocok untuk anda yang ingin merayakan hari spesial', 80000, 1, 'bucket-bunga-couver-ping-ukuran-medium-20221206012853.jpg'),
-	(6, 8, 'bucket-snack-campur-pocky-silverqueen-chic-choc', 'Bucket Snack Campur Pocky,Silverqueen,Chic Choc', 'cocok untuk anda yang ingin merayakan hari bahagia bersama sahabat tercinta', 65000, 1, 'bucket-snack-campur-pockysilverqueenchic-choc-20221206012901.jpg');
+	(6, 8, 'bucket-snack-campur-pocky-silverqueen-chic-choc', 'Bucket Snack Campur Pocky,Silverqueen,Chic Choc', 'cocok untuk anda yang ingin merayakan hari bahagia bersama sahabat tercinta', 65000, 1, 'bucket-snack-campur-pockysilverqueenchic-choc-20221206012901.jpg'),
+	(7, 12, 'bucket-rokok-mild', 'Bucket Rokok mild', 'buat ayang tersayang dan tercinta', 100000, 1, 'bucket-rokok-mild-20221206122151.jpg');
 /*!40000 ALTER TABLE `product` ENABLE KEYS */;
 
 -- Dumping structure for table fjs_bucket-shop.user
@@ -141,14 +134,14 @@ CREATE TABLE IF NOT EXISTS `user` (
   `is_active` tinyint(1) NOT NULL DEFAULT '1',
   `image` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- Dumping data for table fjs_bucket-shop.user: ~2 rows (approximately)
 DELETE FROM `user`;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `role`, `is_active`, `image`) VALUES
-	(4, 'alvi', 'alvisuhartanto@gmail.com', '$2y$10$c/QYpTAClloEolLz8ycUj.AUs6EI9ARLEIolotBmY19zfusS/2B32', 'admin', 1, 'alvi-20221206064032.jpg'),
-	(5, 'paijo', 'paijo@gmail.com', '$2y$10$Q4AmvAgL9HYjU6Rb5fGrKeWzD19SU0HMFphhDuUsFkvhj.KGRxkIq', 'member', 1, 'paijo-20221206063815.jpg');
+	(1, 'alvi', 'alvisuhartanto@gmail.com', '$2y$10$c/QYpTAClloEolLz8ycUj.AUs6EI9ARLEIolotBmY19zfusS/2B32', 'admin', 1, 'alvi-20221206064032.jpg'),
+	(2, 'paijo', 'paijo@gmail.com', '$2y$10$WmkOzSWPTu5snu5Bb8mjJe.TYGzg3PGNLx3g183mCLyR.d4iIp/fa', 'member', 1, NULL);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
