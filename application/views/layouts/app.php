@@ -7,7 +7,7 @@
 	<meta name="description" content="Aplikasi toko online menggunakan CodeIgniter 3">
 	<meta name="author" content="Amir Muhammad Hakim">
 
-	<title><?= isset($title) ? $title : "CIShop" ?> - CodeIgniter E-Commerce</title>
+	<title>FJS Bucket Shop</title>
 
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-fixed/">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
