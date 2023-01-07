@@ -6,8 +6,8 @@ Aplikasi toko online berbasis web menggunakan framework CodeIgniter 3.
 
 |      User     |       Email      	|    Password   |
 |:-------------:|:-----------------:|:-------------:|
-| Administrator | alvisuhartanto@gmail.com  	| alvi1234	|
-| Member        | paijo@gmail.com	| paijo123	|
+| Administrator | alvisuhartanto@gmail.com  	| alvi123	|
+| Member        | paijo@gmail.com	| paijo1234	|
 
 ## Catatan
 
