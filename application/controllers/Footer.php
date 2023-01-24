@@ -12,4 +12,9 @@ class Footer extends MY_Controller {
 	{
 		$this->load->view('pages/footer/sk');
 	}
+
+	public function kebijakan()
+	{
+		$this->load->view('pages/footer/kebijakan');
+	}
 }

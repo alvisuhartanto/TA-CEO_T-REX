@@ -31,7 +31,7 @@
 <ul class="footer_ul_amrc">
 <li><a href="<?= base_url('Footer/about') ?>">Tentang Kami</a></li>
 <li><a href="<?= base_url('Footer/sk') ?>">Syarat & Ketentuan</a></li>
-<li><a href="http://webenlance.com">Kebijakan Privasi</a></li>
+<li><a href="<?= base_url('Footer/kebijakan') ?>">Kebijakan Privasi</a></li>
 <li><a href="http://webenlance.com">Program Reseller</a></li>
 </ul>
 <!--footer_ul_amrc ends here-->
