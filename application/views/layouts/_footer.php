@@ -56,10 +56,10 @@
 <!--headin5_amrc ends here-->
 
 <ul class="footer_ul2_amrc">
-<li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a> FJS Bucket Shop </li> <br>
-<li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a> @fjs_bucket </li> <br>
-<li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a> FJS Bucket Shop </li> <br>
-<li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a> @fjs_bucketshop </li>
+<li><a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a> FJS Bucket Shop </li> <br>
+<li><a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a> @fjs_bucket </li> <br>
+<li><a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a> FJS Bucket Shop </li> <br>
+<li><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a> @fjs_bucketshop </li>
 </ul>
 <!--footer_ul2_amrc ends here-->
 </div>
