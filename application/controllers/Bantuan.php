@@ -18,4 +18,9 @@ class Bantuan extends MY_Controller {
 		$this->load->view('pages/bantuan/pengiriman');
 	}
 
+    public function faq()
+	{
+		$this->load->view('pages/bantuan/faq');
+	}
+
 }

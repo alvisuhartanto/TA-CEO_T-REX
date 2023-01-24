@@ -18,7 +18,13 @@
                     Tentang Kami
                 </div>
                 <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae suscipit nulla id libero dolore minima accusantium quasi nesciunt. Voluptas amet itaque vitae accusantium ipsa labore veritatis quidem consectetur aperiam quaerat.</p>
+                    <p>
+                        FJS Bucket Shop Merupakan sebuah toko online penjualan aneka macam bucket yang berada di kota bandar lampung.
+                        FJS Bucket Shop berdiri sejak tahun 2020 dan terus berkembang sampai dengan sekarang.
+                        Awalnya toko bucket ini hanya menerima pembelian secara offline dengan datang langsung ke toko kami, tapi sekarang pembelianpun dapat dilakukan secara online melalui beberapa platform digital.
+                        Salah satunya adalah melalui alamat website ini. Pembeli dapat melakukan pembelian secara online tanpa datang langsung ke toko melalui website ini.
+                        toko kami selalu berkembang dengan berjalannya waktu, selain website kami juga mempunyai beberapa media sosial yang bisa dikunjungi oleh pembeli. 
+                    </p>
                 </div>
             </div>
         </div>

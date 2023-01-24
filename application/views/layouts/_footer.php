@@ -45,7 +45,7 @@
 <li><a href="<?= base_url('Bantuan/pembayaran') ?>">Metode Pembayaran</a></li>
 <li><a href="<?= base_url('Bantuan/kontakperson') ?>">Kontak Person</a></li>
 <li><a href="<?= base_url('Bantuan/pengiriman') ?>">Pengiriman</a></li>
-<li><a href="http://webenlance.com">FAQ</a></li>
+<li><a href="<?= base_url('Bantuan/faq') ?>">FAQ</a></li>
 </ul>
 <!--footer_ul_amrc ends here-->
 </div>
