@@ -29,11 +29,10 @@
 <h5 class="headin5_amrc col_white_amrc pt2">Informasi</h5>
 <!--headin5_amrc-->
 <ul class="footer_ul_amrc">
-<li><a href="<?= base_url('About') ?>">Tentang Kami</a></li>
-<li><a href="http://webenlance.com">Syarat & Ketentuan</a></li>
+<li><a href="<?= base_url('Footer/about') ?>">Tentang Kami</a></li>
+<li><a href="<?= base_url('Footer/sk') ?>">Syarat & Ketentuan</a></li>
 <li><a href="http://webenlance.com">Kebijakan Privasi</a></li>
 <li><a href="http://webenlance.com">Program Reseller</a></li>
-<li><a href="http://webenlance.com">Semua Koleksi</a></li>
 </ul>
 <!--footer_ul_amrc ends here-->
 </div>
