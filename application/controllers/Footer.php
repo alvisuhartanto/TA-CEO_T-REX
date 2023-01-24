@@ -17,4 +17,9 @@ class Footer extends MY_Controller {
 	{
 		$this->load->view('pages/footer/kebijakan');
 	}
+
+	public function programreseller()
+	{
+		$this->load->view('pages/footer/programreseller');
+	}
 }
