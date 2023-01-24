@@ -15,14 +15,15 @@
         <div class="col-md-8 mx-auto">
             <div class="card">
                 <div class="card-header">
-                    Syarat dan Ketentuan
+                    Kebijakan Privasi
                 </div>
                 <div class="card-body">
-                <div class="form-group">
                     <p>
-                    Dengan mengakses Situs, Anda mengkonfirmasi pemahaman Anda tentang Syarat dan Ketentuan yang berlaku. Jika Anda tidak menyetujui Syarat dan Ketentuan penggunaan, Anda tidak akan menggunakan website ini. Situs berhak, untuk mengubah, memodifikasi, menambah, atau menghapus bagian-bagian dari Syarat dan Ketentuan penggunaan setiap saat. Perubahan akan efektif bila dimasukkan ke dalam di Situs tanpa pemberitahuan lain yang disediakan. Mohon periksa Syarat dan Ketentuan penggunaan secara teratur untuk update selanjutnya. Apabila Anda terus menggunakan Situs setelah adanya pengumuman perubahan pada Syarat dan Ketentuan penggunaan merupakan penerimaan Anda dari perubahan tersebut.
+                    Kami sangat memperhatikan keamanan dan privasi pelanggan kami dan kami hanya akan mengumpulkan informasi pribadi Anda. Perlindungan data adalah masalah kepercayaan dan privasi Anda sangat penting bagi kami. 
+                    Kami hanya akan menggunakan nama Anda dan informasi yang berhubungan dengan Anda sebagaimana yang dinyatakan dalam Kebijakan Privasi berikut. Kami hanya akan mengumpulkan informasi yang kami perlukan dan kami hanya akan mengumpulkan informasi yang relevan dengan transaksi kami dengan Anda. 
+                    Kami hanya akan menyimpan informasi privasi Anda sepanjang kami diwajibkan oleh hukum atau selama informasi tersebut masih relevan dengan tujuan awal pengumpulan informasi tersebut.
+                    Anda dapat mengunjungi situs kami dan menjelajahinya tanpa harus memberikan informasi pribadi. Selama kunjungan Anda ke situs kami, identitas Anda akan tetap terjaga dan kami tidak akan bisa mengidentifikasi Anda kecuali Anda memiliki akun dalam situs kami dan log masuk dengan menggunakan username dan password Anda.
                     </p>
-                </div>
                 </div>
             </div>
         </div>

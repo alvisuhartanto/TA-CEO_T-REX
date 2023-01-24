@@ -29,10 +29,10 @@
 <h5 class="headin5_amrc col_white_amrc pt2">Informasi</h5>
 <!--headin5_amrc-->
 <ul class="footer_ul_amrc">
-<li><a href="<?= base_url('Footer/about') ?>">Tentang Kami</a></li>
-<li><a href="<?= base_url('Footer/sk') ?>">Syarat & Ketentuan</a></li>
-<li><a href="<?= base_url('Footer/kebijakan') ?>">Kebijakan Privasi</a></li>
-<li><a href="<?= base_url('Footer/programreseller') ?>">Program Reseller</a></li>
+<li><a href="<?= base_url('Informasi/about') ?>">Tentang Kami</a></li>
+<li><a href="<?= base_url('Informasi/sk') ?>">Syarat & Ketentuan</a></li>
+<li><a href="<?= base_url('Informasi/kebijakan') ?>">Kebijakan Privasi</a></li>
+<li><a href="<?= base_url('Informasi/programreseller') ?>">Program Reseller</a></li>
 </ul>
 <!--footer_ul_amrc ends here-->
 </div>
@@ -42,7 +42,7 @@
 <h5 class="headin5_amrc col_white_amrc pt2">Bantuan</h5>
 <!--headin5_amrc-->
 <ul class="footer_ul_amrc">
-<li><a href="http://webenlance.com">Metode Pembayaran</a></li>
+<li><a href="<?= base_url('Bantuan/pembayaran') ?>">Metode Pembayaran</a></li>
 <li><a href="http://webenlance.com">Kontak Person</a></li>
 <li><a href="http://webenlance.com">Pengiriman</a></li>
 <li><a href="http://webenlance.com">FAQ</a></li>

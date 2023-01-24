@@ -18,9 +18,7 @@
                     Tentang Kami
                 </div>
                 <div class="card-body">
-                <div class="form-group">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae suscipit nulla id libero dolore minima accusantium quasi nesciunt. Voluptas amet itaque vitae accusantium ipsa labore veritatis quidem consectetur aperiam quaerat.</p>
-                </div>
                 </div>
             </div>
         </div>
