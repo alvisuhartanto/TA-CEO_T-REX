@@ -43,7 +43,7 @@
 <!--headin5_amrc-->
 <ul class="footer_ul_amrc">
 <li><a href="<?= base_url('Bantuan/pembayaran') ?>">Metode Pembayaran</a></li>
-<li><a href="http://webenlance.com">Kontak Person</a></li>
+<li><a href="<?= base_url('Bantuan/kontakperson') ?>">Kontak Person</a></li>
 <li><a href="http://webenlance.com">Pengiriman</a></li>
 <li><a href="http://webenlance.com">FAQ</a></li>
 </ul>
