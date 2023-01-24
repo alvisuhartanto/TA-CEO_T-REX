@@ -36,6 +36,7 @@ class Login extends MY_Controller
 
         if ($this->login->run($input)) {
             $this->session->set_flashdata('success', 'Berhasil melakukan login');
+            $this->input->set_cookie("username", $username, time() + (86400 * 30));
             redirect(base_url());
         } else {
             $this->session->set_flashdata('error', 'E-mail/Password salah atau akun anda sedang tidak aktif');
