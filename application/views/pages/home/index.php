@@ -89,3 +89,6 @@
 	</div>
 	
 </main>
+	<!-- Footer -->
+	<?php $this->load->view('layouts/_footer') ?>
+	<!-- End Footer -->
