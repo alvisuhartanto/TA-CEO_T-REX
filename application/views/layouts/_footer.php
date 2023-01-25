@@ -29,11 +29,10 @@
 <h5 class="headin5_amrc col_white_amrc pt2">Informasi</h5>
 <!--headin5_amrc-->
 <ul class="footer_ul_amrc">
-<li><a href="http://webenlance.com">Tentang Kami</a></li>
-<li><a href="http://webenlance.com">Syarat & Ketentuan</a></li>
-<li><a href="http://webenlance.com">Kebijakan Privasi</a></li>
-<li><a href="http://webenlance.com">Program Reseller</a></li>
-<li><a href="http://webenlance.com">Semua Koleksi</a></li>
+<li><a href="<?= base_url('Informasi/about') ?>">Tentang Kami</a></li>
+<li><a href="<?= base_url('Informasi/sk') ?>">Syarat & Ketentuan</a></li>
+<li><a href="<?= base_url('Informasi/kebijakan') ?>">Kebijakan Privasi</a></li>
+<li><a href="<?= base_url('Informasi/programreseller') ?>">Program Reseller</a></li>
 </ul>
 <!--footer_ul_amrc ends here-->
 </div>
@@ -43,10 +42,10 @@
 <h5 class="headin5_amrc col_white_amrc pt2">Bantuan</h5>
 <!--headin5_amrc-->
 <ul class="footer_ul_amrc">
-<li><a href="http://webenlance.com">Metode Pembayaran</a></li>
-<li><a href="http://webenlance.com">Kontak Person</a></li>
-<li><a href="http://webenlance.com">Pengiriman</a></li>
-<li><a href="http://webenlance.com">FAQ</a></li>
+<li><a href="<?= base_url('Bantuan/pembayaran') ?>">Metode Pembayaran</a></li>
+<li><a href="<?= base_url('Bantuan/kontakperson') ?>">Kontak Person</a></li>
+<li><a href="<?= base_url('Bantuan/pengiriman') ?>">Pengiriman</a></li>
+<li><a href="<?= base_url('Bantuan/faq') ?>">FAQ</a></li>
 </ul>
 <!--footer_ul_amrc ends here-->
 </div>
@@ -57,10 +56,10 @@
 <!--headin5_amrc ends here-->
 
 <ul class="footer_ul2_amrc">
-<li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a> FJS Bucket Shop </li> <br>
-<li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a> @fjs_bucket </li> <br>
-<li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a> FJS Bucket Shop </li> <br>
-<li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a> @fjs_bucketshop </li>
+<li><a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a> FJS Bucket Shop </li> <br>
+<li><a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a> @fjs_bucket </li> <br>
+<li><a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a> FJS Bucket Shop </li> <br>
+<li><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a> @fjs_bucketshop </li>
 </ul>
 <!--footer_ul2_amrc ends here-->
 </div>
